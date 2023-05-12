@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header id="header1">
+        <h1>Welcome to our calorie calculator and healthy food picker</h1>
+
+    </header>
+<br>
+<br>
+<br>
+    <section id="section1">
+        <p id="food-group">Please pick a food group</p>
+            <br>
+        <div id="food-group-line">
+            <div>Proteins</div>
+            <div>Greens</div>
+            <div>Fruits</div>
+            <div>Nuts and legumes</div>
+        </div>
+    </section>
+   <section id="proteins">
+  <h2>Proteins</h2>
+  <div class="grid-container-proteins">
+    <div class="protein-item" data-name="Chicken Breast" data-calories="165">
+      <img src="protein1.jpg" alt="Chicken">
+      <h3>Chicken 200 gram</h3>
+      <p>Description of protein 1.</p>
+    </div>
+    <div class="protein-item" data-name="Pork" data-calories="250">
+      <img src="protein2.jpg" alt="Pork">
+      <h3>Pork 200 gram</h3>
+      <p>Description of protein 2.</p>
+    </div>
+    <div class="protein-item" data-name="Beef" data-calories="300">
+      <img src="protein3.jpg" alt="Beef">
+      <h3>Beef 200 gram</h3>
+      <p>Description of protein 3.</p>
+    </div>
+    <div class="protein-item" data-name="Mackrel" data-calories="220">
+      <img src="protein4.jpg" alt="Mackrel">
+      <h3>Mackrel 200 gram</h3>
+      <p>Description of protein 4.</p>
+    </div>
+    <div class="protein-item" data-name="Salmon" data-calories="200">
+      <img src="protein4.jpg" alt="Salmon">
+      <h3>Salmon 200 gram</h3>
+      <p>Description of protein 4.</p>
+    </div>
+  </div>
+</section>
+
+<section id="section1">
+  <p id="food-group">Please pick a food group</p>
+  <br>
+  <div id="grid-container"></div>
+  <div id="calories-display"></div>
+  <button onclick="calculateCalories()">Calculate</button>
+</section>
+
+
+<script src="index.js"></script>

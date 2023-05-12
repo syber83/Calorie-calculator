@@ -1,0 +1,75 @@
+body{
+    color:bisque;
+    font-size: larger;
+    background-color: black;
+    
+}
+
+#header1,
+#food-group,
+#food-group-line, 
+#food-group-line div{
+    display: inline-block;
+    border-radius: 2px;
+    border-style: solid;
+    padding: 5px;
+}
+
+#food-group-line{
+    display: flex;
+  }
+  
+#food-group-line div{
+    flex: 1;
+  }
+  
+  #proteins {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #8f4c4c;
+  }
+  
+  #proteins h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .grid-container-proteins {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .protein-item {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: rgb(77, 11, 11);
+  }
+  
+  .protein-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .protein-item h3 {
+    margin-bottom: 10px;
+  }
+  
+  .protein-item p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+
+  .selected{
+    border-radius: 5px;
+  }
+  
+  .protein-item.selected {
+    border: 2px solid blue;
+  }
+  
