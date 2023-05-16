@@ -9,7 +9,7 @@
     
 </head>
 <body>
-    <header id="header1">
+    <header id="header1" class="header1">
         <h1>Welcome to our calorie calculator and healthy food picker</h1>
 
     </header>
@@ -17,17 +17,18 @@
 <br>
 <br>
     <section id="section1">
-        <p id="food-group">Please pick a food group</p>
+        <p id="food-group" class="food-group">Please pick a food group</p>
             <br>
-        <div id="food-group-line">
-            <div>Proteins</div>
-            <div>Greens</div>
-            <div>Fruits</div>
-            <div>Nuts and legumes</div>
+        <div id="food-group-line" class="food-group-line">
+          <div id="proteins-btn" class="proteins-btn">Proteins</div>
+          <div id="greens-btn" class="greens-btn">Greens</div>
+          <div id="fruits-btn" class="fruits-btn">Fruits</div>
+          <div id="nuts-btn"class="nuts-btn">Nuts and legumes</div>
         </div>
     </section>
-   <section id="proteins">
-  <h2>Proteins</h2>
+   <section id="proteins" class="food-section-proteins">
+
+  <h2 class="food-group-name">Proteins</h2>
   <div class="grid-container-proteins">
     <div class="protein-item" data-name="Chicken Breast" data-calories="165">
       <img src="protein1.jpg" alt="Chicken">
@@ -57,6 +58,139 @@
   </div>
 </section>
 
+<section id="greens" class="food-section-greens">
+  <h2 class="food-group-name">Greens</h2>
+  <div class="grid-container-greens">
+    <div class="greens-item" data-name="Spinach" data-calories="23">
+      <img src="green1.jpg" alt="Spinach">
+      <h3>Spinach 100 gram</h3>
+      <p>Description of green 1.</p>
+    </div>
+    <div class="greens-item" data-name="Kale" data-calories="49">
+      <img src="green2.jpg" alt="Kale">
+      <h3>Kale 100 gram</h3>
+      <p>Description of green 2.</p>
+    </div>
+    <div class="greens-item" data-name="Broccoli" data-calories="34">
+      <img src="green3.jpg" alt="Broccoli">
+      <h3>Broccoli 100 gram</h3>
+      <p>Description of green 3.</p>
+    </div>
+</section>
+
+<section id="fruits" class="food-section-fruits">
+  <h2 class="food-group-name">Fruits</h2>
+  <div class="grid-container-fruits">
+    <div class="fruits-item" data-name="Banana" data-calories="89">
+      <img src="fruit1.jpg" alt="Banana">
+      <h3>Banana 100 gram</h3>
+      <p>Description of fruit 1.</p>
+    </div>
+    <div class="fruits-item" data-name="Apple" data-calories="52">
+      <img src="fruit2.jpg" alt="Apple">
+      <h3>Apple 100 gram</h3>
+      <p>Description of fruit 2.</p>
+    </div>
+    <div class="fruits-item" data-name="Orange" data-calories="47">
+      <img src="fruit3.jpg" alt="Orange">
+      <h3>Orange 100 gram</h3>
+      <p>Description of fruit 3.</p>
+    </div>
+    <div class="fruits-item" data-name="Raspberries" data-calories="52">
+      <img src="fruit4.jpg" alt="Raspberries">
+      <h3>Raspberries 100 gram</h3>
+      <p>Description of fruit 4.</p>
+    </div>
+    <div class="fruits-item" data-name="Strawberries" data-calories="32">
+      <img src="fruit5.jpg" alt="Strawberries">
+      <h3>Strawberries 100 gram</h3>
+      <p>Description of fruit 5.</p>
+    </div>
+    <div class="fruits-item" data-name="Kiwi" data-calories="61">
+      <img src="fruit6.jpg" alt="Kiwi">
+      <h3>Kiwi 100 gram</h3>
+      <p>Description of fruit 6.</p>
+    </div>
+    <div class="fruits-item" data-name="Mango" data-calories="60">
+      <img src="fruit7.jpg" alt="Mango">
+      <h3>Mango 100 gram</h3>
+      <p>Description of fruit 7.</p>
+    </div>
+    <div class="fruits-item" data-name="Pear" data-calories="57">
+      <img src="fruit8.jpg" alt="Pear">
+      <h3>Pear 100 gram</h3>
+      <p>Description of fruit 8.</p>
+    </div>
+    <div class="fruits-item" data-name="Peach" data-calories="39">
+      <img src="fruit9.jpg" alt="Peach">
+      <h3>Peach 100 gram</h3>
+      <p>Description of fruit 9.</p>
+    </div>
+  </div>
+</section>
+
+<section id="nuts-legumes" class="food-section-nuts">
+  <h2 class="food-group-name">Nuts and Legumes</h2>
+  <div class="grid-container-nuts">
+    <div class="nuts-item" data-name="Almonds" data-calories="579">
+      <img src="nuts1.jpg" alt="Almonds">
+      <h3>Almonds 100 gram</h3>
+      <p>Description of nut 1.</p>
+    </div>
+    <div class="nuts-item" data-name="Peanuts" data-calories="567">
+      <img src="nuts2.jpg" alt="Peanuts">
+      <h3>Peanuts 100 gram</h3>
+      <p>Description of nut 2.</p>
+    </div>
+    <div class="nuts-item" data-name="Cashews" data-calories="553">
+      <img src="nuts3.jpg" alt="Cashews">
+      <h3>Cashews 100 gram</h3>
+      <p>Description of nut 3.</p>
+    </div>
+    <div class="nuts-item" data-name="Lentils" data-calories="116">
+      <img src="nuts4.jpg" alt="Lentils">
+      <h3>Lentils 100 gram</h3>
+      <p>Description of legume 1.</p>
+    </div>
+    <div class="nuts-item" data-name="Chickpeas" data-calories="364">
+      <img src="nuts5.jpg" alt="Chickpeas">
+      <h3>Chickpeas 100 gram</h3>
+      <p>Description of legume 2.</p>
+    </div>
+    <div class="nuts-item" data-name="Black Beans" data-calories="132">
+      <img src="nuts6.jpg" alt="Black Beans">
+      <h3>Black Beans 100 gram</h3>
+      <p>Description of legume 3.</p>
+    </div>
+
+    <div class="nuts-item" data-name="Almonds" data-calories="576">
+      <img src="nuts1.jpg" alt="Almonds">
+      <h3>Almonds 100 gram</h3>
+      <p>Description of nut 1.</p>
+    </div>
+    <div class="nuts-item" data-name="Peanuts" data-calories="567">
+      <img src="nuts2.jpg" alt="Peanuts">
+      <h3>Peanuts 100 gram</h3>
+      <p>Description of nut 2.</p>
+    </div>
+    <div class="nuts-item" data-name="Walnuts" data-calories="654">
+      <img src="nuts3.jpg" alt="Walnuts">
+      <h3>Walnuts 100 gram</h3>
+      <p>Description of nut 3.</p>
+    </div>
+    <div class="nuts-item" data-name="Brazilnuts" data-calories="659">
+      <img src="nuts4.jpg" alt="Brazilnuts">
+      <h3>Brazilnuts 100 gram</h3>
+      <p>Description of nut 4.</p>
+    </div>
+    <div class="nuts-item" data-name="Pistachios" data-calories="562">
+      <img src="nuts5.jpg" alt="Pistachios">
+      <h3>Pistachios 100 gram</h3>
+      <p>Description of nut 5.</p>
+    </div>
+  </div>
+</section>
+
 <section id="section1">
   <p id="food-group">Please pick a food group</p>
   <br>
@@ -67,3 +201,5 @@
 
 
 <script src="index.js"></script>
+
+</body>
